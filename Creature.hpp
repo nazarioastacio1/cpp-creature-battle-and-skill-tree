@@ -137,7 +137,7 @@ class Creature {
      * Level: [LEVEL]\n
      * Hostile: [TRUE/FALSE]"
      */
-    void display() const;
+    virtual void display() const;
 
     private:
     std::string name_;

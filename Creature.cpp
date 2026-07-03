@@ -148,13 +148,9 @@ std::string Creature::getSchool()const{
  * @return: true if the health was set, false otherwise
  */
 bool Creature::setHealth(const int& health){
-    if (health <= 0){
-        return false;
-    }else{
-        health_ = health;
-        return true;
-    }
-};
+    health_ = health;
+    return true;
+}
 
 /**
  * @return: The health of the Creature
