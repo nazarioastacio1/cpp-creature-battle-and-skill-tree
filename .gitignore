@@ -1,0 +1,12 @@
+
+# macOS files
+.DS_Store
+
+# Compiled C++ files
+*.o
+*.out
+*.exe
+*.dSYM/
+
+# Build folders
+build/
